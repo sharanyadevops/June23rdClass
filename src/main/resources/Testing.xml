@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Google Ajax Control">
+	<listeners>
+		<listener class-name="Report01.ExtendReportListener" />
+	</listeners>
+
+
+	<test name="Test" verbose="1">
+		<classes>
+			<class name="Report01.AjaxControl">
+				<methods>
+					<include name="functionality" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+
+</suite> 
